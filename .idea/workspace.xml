@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97df78b5-1fc1-4538-9a0e-f3b171fb881e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="TicTacToe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,31 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="426">
               <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-400">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -196,6 +176,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js-jscs-package" value="C:\Users\User\AppData\Roaming\npm\node_modules\jscs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.Unit Tests">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -671,7 +656,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474831836683</updated>
-      <workItem from="1474831838162" duration="2396000" />
+      <workItem from="1474831838162" duration="2770000" />
     </task>
     <task id="LOCAL-00001" summary="master&#10;&#10;bitbucket pipelines added">
       <created>1474833809247</created>
@@ -701,7 +686,28 @@
       <option name="project" value="LOCAL" />
       <updated>1474834201356</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="master&#10;&#10;pom.xml altered">
+      <created>1474834352460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1474834352460</updated>
+    </task>
+    <task id="LOCAL-00006" summary="master&#10;&#10;Folder structure altered">
+      <created>1474834588292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1474834588292</updated>
+    </task>
+    <task id="LOCAL-00007" summary="master&#10;&#10;Folder structure altered">
+      <created>1474834710796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1474834710796</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -722,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2396000" />
+    <option name="totallyTimeSpent" value="2770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -763,7 +769,8 @@
     <MESSAGE value="master&#10;&#10;bitbucket pipelines added" />
     <MESSAGE value="master&#10;&#10;bitbucket pipelines altered" />
     <MESSAGE value="master&#10;&#10;pom.xml altered" />
-    <option name="LAST_COMMIT_MESSAGE" value="master&#10;&#10;pom.xml altered" />
+    <MESSAGE value="master&#10;&#10;Folder structure altered" />
+    <option name="LAST_COMMIT_MESSAGE" value="master&#10;&#10;Folder structure altered" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
