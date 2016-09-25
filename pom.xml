@@ -29,6 +29,8 @@
                 <version>3.5.1</version>
                 <configuration>
                     <includes>
+                        <include>src/**/*.java</include>
+                        <include>src/**/*.java</include>
                         <include>test/**/*.java</include>
                         <include>test/*.java</include>
                     </includes>
