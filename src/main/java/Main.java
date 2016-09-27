@@ -26,6 +26,11 @@ public class Main {
 
             board.printBoard();
 
+            if (board.checkForWin()) {
+                System.out.println("You are a winner");
+                System.exit(1);
+            }
+
             continue;
         }
 

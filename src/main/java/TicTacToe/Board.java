@@ -66,5 +66,52 @@ public class Board {
         return isFull;
     }
 
+    public boolean checkForWin()
+    {
+        if (checkRowsForWin() == true || checkColsForWin() == true || checkDiagonalsForWin() == true) {
+            return true;
+        }
 
+        return false;
+    }
+
+    private boolean checkRowsForWin()
+    {
+        for (int i = 0; i < 3; i++) {
+            if (checkRowCol(board[i][0], board[i][1], board[i][2]) == true) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private boolean checkColsForWin()
+    {
+        for (int i = 0; i < 3; i++) {
+            if (checkRowCol(board[0][i], board[1][i], board[2][i]) == true) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private boolean checkDiagonalsForWin()
+    {
+        if ((checkRowCol(board[0][0], board[1][1], board[2][2]) == true) || (checkRowCol(board[0][2], board[1][1], board[2][0]) == true)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    private boolean checkRowCol(char c1, char c2, char c3)
+    {
+        if ((c1 != '-') && (c1 == c2) && (c2 == c3)) {
+            return true;
+        }
+
+        return false;
+    }
 }
