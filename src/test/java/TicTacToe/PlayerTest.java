@@ -9,9 +9,9 @@ public class PlayerTest {
     {
         Player player = new Player();
         player.setName("Player Name");
-        player.setMarker("x");
+        player.setMarker('x');
 
         assertEquals("Player Name", player.getName());
-        assertEquals("x", player.getMarker());
+        assertEquals('x', player.getMarker());
     }
 }

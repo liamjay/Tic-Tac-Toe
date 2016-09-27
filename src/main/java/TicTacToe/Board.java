@@ -37,12 +37,12 @@ public class Board {
         }
     }
 
-    public boolean placeMarker(int row, int col)
+    public boolean placeMarker(int row, int col, char marker)
     {
         if (row >= 0 && row < 3) {
             if (col >=0 && col < 3) {
                 if (board[row][col] == '-') {
-                    board[row][col] = 'x';
+                    board[row][col] = marker;
                     return true;
                 }
             }

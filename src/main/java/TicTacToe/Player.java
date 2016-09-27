@@ -2,7 +2,7 @@ package TicTacToe;
 
 public class Player {
     private String name;
-    private String marker;
+    private char marker;
 
     public String getName()
     {
@@ -14,12 +14,12 @@ public class Player {
         this.name = name;
     }
 
-    public String getMarker()
+    public char getMarker()
     {
         return this.marker;
     }
 
-    public void setMarker(String marker)
+    public void setMarker(char marker)
     {
         this.marker = marker;
     }

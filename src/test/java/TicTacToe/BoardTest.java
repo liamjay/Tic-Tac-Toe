@@ -28,7 +28,7 @@ public class BoardTest {
     public void testPlaceMarkerReturnsFalse()
     {
         Board board = new Board();
-        Boolean actual = board.placeMarker(4, 4);
+        Boolean actual = board.placeMarker(4, 4, 'x');
 
         assertFalse(actual);
     }
@@ -37,23 +37,23 @@ public class BoardTest {
     public void testPlaceMarkerReturnsTrue()
     {
         Board board = new Board();
-        Boolean actual = board.placeMarker(0, 0);
+        Boolean actual = board.placeMarker(0, 0, 'x');
 
         assertTrue(actual);
     }
 
     private void setMarkers(Board board)
     {
-        board.placeMarker(0, 0);
-        board.placeMarker(0, 1);
-        board.placeMarker(0, 2);
+        board.placeMarker(0, 0, 'x');
+        board.placeMarker(0, 1, 'x');
+        board.placeMarker(0, 2, 'x');
 
-        board.placeMarker(1, 0);
-        board.placeMarker(1, 1);
-        board.placeMarker(1, 2);
+        board.placeMarker(1, 0, 'x');
+        board.placeMarker(1, 1, 'x');
+        board.placeMarker(1, 2, 'x');
 
-        board.placeMarker(2, 0);
-        board.placeMarker(2, 1);
-        board.placeMarker(2, 2);
+        board.placeMarker(2, 0, 'x');
+        board.placeMarker(2, 1, 'x');
+        board.placeMarker(2, 2, 'x');
     }
 }
